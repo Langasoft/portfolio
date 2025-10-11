@@ -43,7 +43,7 @@ export default function About() {
             </div>
             <div style={{ display: 'flex', gap: 16, alignItems: 'center', padding: '12px 0' }}>
               <div style={{ width: 32, height: 32, borderRadius: '50%', background: 'rgba(0,191,255,0.1)', color: 'var(--ls-primary)', display: 'grid', placeItems: 'center' }}>📦</div>
-              <span>Experiencia: proyectos end‑to‑end y optimizaciones de rendimiento</span>
+              <span>Experiencia: RN/Expo (móvil), Laravel + React/Inertia (web), salud/portuario/pymes</span>
             </div>
             <div style={{ display: 'flex', gap: 16, alignItems: 'center', padding: '12px 0' }}>
               <div style={{ width: 32, height: 32, borderRadius: '50%', background: 'rgba(0,191,255,0.1)', color: 'var(--ls-primary)', display: 'grid', placeItems: 'center' }}>🔗</div>
