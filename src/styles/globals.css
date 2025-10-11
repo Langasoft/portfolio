@@ -1,0 +1,173 @@
+@import './tokens.css';
+
+/* Reset ligero y base tipográfica */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: var(--ls-font-sans);
+    color: var(--ls-neutral-900);
+    background: #fff;
+}
+
+/* Compensar navbar fija al navegar por anclas */
+section[id] {
+    scroll-margin-top: 100px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Contenedor y grid 12 columnas helpers */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-12 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 24px;
+}
+
+.cols-8-centered {
+    grid-column: 3 / span 8;
+}
+
+@media (max-width: 1199px) {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .cols-8-centered {
+        grid-column: 2 / span 10;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .grid-12 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .cols-8-centered {
+        grid-column: 1 / -1;
+    }
+
+    .nav-links {
+        gap: 20px !important;
+        font-size: 14px !important;
+    }
+
+    .nav-logo {
+        height: 80px !important;
+    }
+}
+
+/* Utilidades */
+.eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--ls-primary);
+}
+
+.text-gradient {
+    background: var(--ls-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Responsive helpers */
+.desktop-only {
+    display: flex;
+}
+
+.mobile-only {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .desktop-only {
+        display: none !important;
+    }
+
+    .mobile-only {
+        display: inline-flex !important;
+        align-items: center;
+    }
+}
+
+/* Projects grid responsive fixes */
+.projects-grid {
+    align-items: stretch;
+}
+
+.projects-grid .card {
+    grid-column: span 4;
+}
+
+.projects-grid .card.size-lg {
+    grid-column: span 8;
+    height: 500px;
+}
+
+.projects-grid .card.size-md {
+    grid-column: span 4;
+    height: 400px;
+}
+
+.projects-grid .card.size-sm {
+    grid-column: span 4;
+    height: 240px;
+}
+
+@media (max-width: 1199px) {
+    .projects-grid .card.size-lg {
+        grid-column: span 12;
+    }
+}
+
+@media (max-width: 767px) {
+    .projects-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .projects-grid .card {
+        grid-column: 1 / -1 !important;
+        height: auto;
+        min-height: 280px;
+    }
+}
