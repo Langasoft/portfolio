@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Langasoft/portfolio.git/static/css/main.f855e6bc.css",
-    "main.js": "/Langasoft/portfolio.git/static/js/main.31cbd814.js",
-    "static/js/453.6264690d.chunk.js": "/Langasoft/portfolio.git/static/js/453.6264690d.chunk.js",
-    "static/media/logo.svg": "/Langasoft/portfolio.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/Langasoft/portfolio.git/index.html",
-    "main.f855e6bc.css.map": "/Langasoft/portfolio.git/static/css/main.f855e6bc.css.map",
-    "main.31cbd814.js.map": "/Langasoft/portfolio.git/static/js/main.31cbd814.js.map",
-    "453.6264690d.chunk.js.map": "/Langasoft/portfolio.git/static/js/453.6264690d.chunk.js.map"
+    "main.css": "/Langasoft/portfolio/static/css/main.f855e6bc.css",
+    "main.js": "/Langasoft/portfolio/static/js/main.2ec75eda.js",
+    "static/js/453.6264690d.chunk.js": "/Langasoft/portfolio/static/js/453.6264690d.chunk.js",
+    "static/media/logo.svg": "/Langasoft/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Langasoft/portfolio/index.html",
+    "main.f855e6bc.css.map": "/Langasoft/portfolio/static/css/main.f855e6bc.css.map",
+    "main.2ec75eda.js.map": "/Langasoft/portfolio/static/js/main.2ec75eda.js.map",
+    "453.6264690d.chunk.js.map": "/Langasoft/portfolio/static/js/453.6264690d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.31cbd814.js"
+    "static/js/main.2ec75eda.js"
   ]
 }
