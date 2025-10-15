@@ -15,7 +15,7 @@ export default function About() {
             transition={{ duration: 0.6 }}
             style={{ aspectRatio: '4 / 3', borderRadius: 24, overflow: 'hidden', boxShadow: '0 20px 60px rgba(0,0,0,0.15)' }}
           >
-            <img src={process.env.PUBLIC_URL + '/IMG_1498.jpeg'} alt="Foto de perfil" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 35%' }} />
+            <img src={process.env.PUBLIC_URL + '/IMG_1498.jpg'} alt="Foto de perfil" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 35%' }} />
           </motion.div>
         </div>
 
